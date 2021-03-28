@@ -1,3 +1,21 @@
 ---
 ---
-@import "main";
+@import "index";
+@import "nav";
+@import "footer";
+
+body{
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  .main{
+    width: 800px;
+    margin: auto;
+  }
+  a{
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+  }
+}

@@ -3,12 +3,16 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"_sass/main.scss"
+		"../jekyll/_sass/index.scss",
+		"../jekyll/_sass/nav.scss",
+		"../jekyll/_sass/footer.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
-		".current {\r\n    color: green;\r\n  }"
+		"@import \"index\";\n@import \"nav\";\n@import \"footer\";\n\nbody{\n  margin: 0;\n  overflow: hidden;\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  .main{\n    width: 800px;\n    margin: auto;\n  }\n  a{\n    text-decoration: none;\n  }\n  li{\n    list-style: none;\n  }\n}\n",
+		"main{\n  article{\n    border: 1px rgba(100, 100, 100, 0.1) solid;\n    border-radius: 5px;\n    margin-top: 30px;\n    div{\n      padding: 20px;\n      a{\n        color: #888;\n      }\n    }\n  }\n  :hover{\n    background-color: #fbfbfb;\n  }\n}\n",
+		"nav{\n  div{\n    display: flex;\n    justify-content: center;\n    a {\n      color: #44A1D6;\n      font-size: 18px;\n      padding: 10px;\n      margin-top: 35px;\n      &:hover{\n        border-bottom: 1px rgb(44, 161, 214) solid;\n      }\n    }\n  }\n}\n",
+		"footer{\n    background-color: #333;\n    color: #333;\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    right: 0;\n\n  a{\n    color: #ccc;\n  }\n  .foot{\n    margin: auto;\n    display: flex;\n    justify-content: space-around;\n    width: 800px;\n    div{\n      display: flex;\n      align-items: center;\n      p{\n        color: #ccc;\n        font-size: 19px;\n      }\n      ul{\n        margin: 10px;\n      }\n    }\n  }\n}\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AACE,IADE,CACF,OAAO,CAAA,EACL,MAAM,EAAE,GAAG,CAAC,wBAAwB,CAAC,KAAK,EAC1C,aAAa,EAAE,GAAG,EAClB,UAAU,EAAE,IAAI,GAOjB;;AAXH,AAKI,IALA,CACF,OAAO,CAIL,GAAG,CAAA,EACD,OAAO,EAAE,IAAI,GAId;;AAVL,AAOM,IAPF,CACF,OAAO,CAIL,GAAG,CAED,CAAC,CAAA,EACC,KAAK,EAAE,IAAI,GACZ;;AATP,AAYE,IAZE,EAYD,KAAK,CAAA,EACJ,gBAAgB,EAAE,OAAO,GAC1B;;ACdH,AACE,GADC,CACD,GAAG,CAAA,EACD,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,GAUxB;;AAbH,AAII,GAJD,CACD,GAAG,CAGD,CAAC,CAAC,EACA,KAAK,EAAE,OAAO,EACd,SAAS,EAAE,IAAI,EACf,OAAO,EAAE,IAAI,EACb,UAAU,EAAE,IAAI,GAIjB;;AAZL,AASM,GATH,CACD,GAAG,CAGD,CAAC,CAKG,KAAK,CAAA,EACL,aAAa,EAAE,GAAG,CAAC,OAAiB,CAAC,KAAK,GAC3C;;ACXP,AAAA,MAAM,CAAA,EACF,gBAAgB,EAAE,IAAI,EACtB,KAAK,EAAE,IAAI,EACX,QAAQ,EAAE,KAAK,EACf,MAAM,EAAE,CAAC,EACT,IAAI,EAAE,CAAC,EACP,KAAK,EAAE,CAAC,GAsBX;;AA5BD,AAQE,MARI,CAQJ,CAAC,CAAA,EACC,KAAK,EAAE,IAAI,GACZ;;AAVH,AAWE,MAXI,CAWJ,KAAK,CAAA,EACH,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,YAAY,EAC7B,KAAK,EAAE,KAAK,GAYb;;AA3BH,AAgBI,MAhBE,CAWJ,KAAK,CAKH,GAAG,CAAA,EACD,OAAO,EAAE,IAAI,EACb,WAAW,EAAE,MAAM,GAQpB;;AA1BL,AAmBM,MAnBA,CAWJ,KAAK,CAKH,GAAG,CAGD,CAAC,CAAA,EACC,KAAK,EAAE,IAAI,EACX,SAAS,EAAE,IAAI,GAChB;;AAtBP,AAuBM,MAvBA,CAWJ,KAAK,CAKH,GAAG,CAOD,EAAE,CAAA,EACA,MAAM,EAAE,IAAI,GACb;;AHrBP,AAAA,IAAI,CAAA,EACF,MAAM,EAAE,CAAC,EACT,QAAQ,EAAE,MAAM,EAChB,WAAW,EAAE,mCAAmC,GAWjD;;AAdD,AAIE,IAJE,CAIF,KAAK,CAAA,EACH,KAAK,EAAE,KAAK,EACZ,MAAM,EAAE,IAAI,GACb;;AAPH,AAQE,IARE,CAQF,CAAC,CAAA,EACC,eAAe,EAAE,IAAI,GACtB;;AAVH,AAWE,IAXE,CAWF,EAAE,CAAA,EACA,UAAU,EAAE,IAAI,GACjB"
 }

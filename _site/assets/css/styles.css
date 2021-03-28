@@ -1,3 +1,35 @@
-.current { color: green; }
+main article { border: 1px rgba(100, 100, 100, 0.1) solid; border-radius: 5px; margin-top: 30px; }
+
+main article div { padding: 20px; }
+
+main article div a { color: #888; }
+
+main :hover { background-color: #fbfbfb; }
+
+nav div { display: flex; justify-content: center; }
+
+nav div a { color: #44A1D6; font-size: 18px; padding: 10px; margin-top: 35px; }
+
+nav div a:hover { border-bottom: 1px #2ca1d6 solid; }
+
+footer { background-color: #333; color: #333; position: fixed; bottom: 0; left: 0; right: 0; }
+
+footer a { color: #ccc; }
+
+footer .foot { margin: auto; display: flex; justify-content: space-around; width: 800px; }
+
+footer .foot div { display: flex; align-items: center; }
+
+footer .foot div p { color: #ccc; font-size: 19px; }
+
+footer .foot div ul { margin: 10px; }
+
+body { margin: 0; overflow: hidden; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+body .main { width: 800px; margin: auto; }
+
+body a { text-decoration: none; }
+
+body li { list-style: none; }
 
 /*# sourceMappingURL=styles.css.map */

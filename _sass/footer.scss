@@ -1,0 +1,29 @@
+footer{
+    background-color: #333;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+  a{
+    color: #ccc;
+  }
+  .foot{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    div{
+      display: flex;
+      align-items: center;
+      p{
+        color: #ccc;
+        font-size: 19px;
+      }
+      ul{
+        margin: 10px;
+      }
+    }
+  }
+}
