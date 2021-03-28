@@ -3,9 +3,9 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"../jekyll/_sass/index.scss",
-		"../jekyll/_sass/nav.scss",
-		"../jekyll/_sass/footer.scss"
+		"_sass/index.scss",
+		"_sass/nav.scss",
+		"_sass/footer.scss"
 	],
 	"sourcesContent": [
 		"@import \"index\";\n@import \"nav\";\n@import \"footer\";\n\nbody{\n  margin: 0;\n  overflow: hidden;\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  .main{\n    width: 800px;\n    margin: auto;\n  }\n  a{\n    text-decoration: none;\n  }\n  li{\n    list-style: none;\n  }\n}\n",

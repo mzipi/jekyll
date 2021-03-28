@@ -1,8 +1,8 @@
 - name: INICIO
-  link: /
+  link: ./index.html
 - name: PORTFOLIO
-  link: /portfolio/
+  link: ./portfolio.html
 - name: BLOG
-  link: /blog/
+  link: ./blog.html
 - name: PERFIL
-  link: /perfil/
+  link: ./perfil.html
